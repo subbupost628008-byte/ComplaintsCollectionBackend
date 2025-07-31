@@ -15,9 +15,9 @@ const client = new MongoClient(process.env.MONGODB_URI);
 let db;
 
 // Auth0
-const AUTH0_DOMAIN = 'https://dev-j63rombaests5q31.us.auth0.com';
-const CLIENT_ID = 'YT3481v14PEBLtjK72vHdMkmwYcqISar';
-const CLIENT_SECRET = 'DhiQrkBmqz4sKWLn08zc2Gz_Awdac6aBTwsZ4MaKF7o48mRpzF0-jJGyJBvQbMTG';
+const AUTH0_DOMAIN = '';
+const CLIENT_ID = '';
+const CLIENT_SECRET = '';
 const AUDIENCE = 'https://688710b6185ab57fcd7b4646.powersync.journeyapps.com';
 
 async function getAccessToken() {
